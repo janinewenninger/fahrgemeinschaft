@@ -23,7 +23,7 @@ jobs:
           distribution: 'temurin' # See 'Supported distributions' for available options
           java-version: '17'
       - name: compile
-	working-directory: src
+	        working-directory: src
       - run: |
 	        echo "installed java version"
 	        java -version
