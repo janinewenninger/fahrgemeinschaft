@@ -16,7 +16,7 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
-	  pwd
+	        pwd
       - run: echo "🍏 This job's status is ${{ job.status }}."
 
       - uses: actions/checkout@v3
